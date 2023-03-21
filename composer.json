@@ -1,0 +1,21 @@
+{
+    "name": "omen666/lead-task",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+    }
+}

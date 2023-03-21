@@ -10,5 +10,5 @@ require __DIR__ . '/../vendor/autoload.php';
 $generator = new Generator();
 
 $generator->generateLeads(10000, function (Lead $lead) {
-    shell_exec('php src/Leads/Console/CreateLead.php ' . $lead->id . ' "' . $lead->categoryName . '"');
+    shell_exec('php src/Leads/Console/CreateLead.php ' . $lead->id . ' "' . $lead->categoryName . '" > /dev/null 2>/dev/null &');
 });

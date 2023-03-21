@@ -7,9 +7,9 @@
         "sort-packages": true
     },
     "require": {
-        "php": "^8.1"
-    },
-    "require-dev": {
+        "php": "^8.1",
+        "vladimir163/lead-generator": "dev-master",
+        "webmozart/assert": "^1.11"
     },
     "autoload": {
         "psr-4": {
